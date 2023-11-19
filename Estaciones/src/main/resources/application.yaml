@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+    hibernate:
+      ddl-auto: none
+
+
+  datasource:
+    url: jdbc:sqlite:../bicicletas.db
+    driver-class-name: org.sqlite.JDBC
+
+server:
+  port: 8082
